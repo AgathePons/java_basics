@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51db5974-0501-47c3-a029-ef31812a8ee4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/WordPlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/learn/TestWordPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learn/TestVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TestVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/Basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,11 +39,22 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestVariables.testStringSubstringOutOfBounds">
-    <configuration name="TestVariables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="learn" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestWordPlay.isPalindromeWordKo">
+    <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.Basics" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -48,41 +62,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestVariables" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVariables.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestVariables" />
-      <option name="METHOD_NAME" value="testString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVariables.testStringInitializeVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestVariables" />
-      <option name="METHOD_NAME" value="testStringInitializeVariable" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn in basics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWordPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -112,18 +91,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="learn" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestWordPlay" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWordPlay.isPalindromeWordKo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestWordPlay" />
+      <option name="METHOD_NAME" value="isPalindromeWordKo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWordPlay.isPalindromeWordOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestWordPlay" />
+      <option name="METHOD_NAME" value="isPalindromeWordOk" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestWordPlay.isPalindromeWordKo" />
+        <item itemvalue="JUnit.TestWordPlay.isPalindromeWordOk" />
+        <item itemvalue="Application.Basics" />
+        <item itemvalue="JUnit.TestWordPlay" />
         <item itemvalue="JUnit.TestVariables.testStringSubstringOutOfBounds" />
-        <item itemvalue="JUnit.TestVariables.testStringInitializeVariable" />
-        <item itemvalue="JUnit.learn in basics" />
-        <item itemvalue="JUnit.TestVariables" />
-        <item itemvalue="JUnit.TestVariables.testString" />
       </list>
     </recent_temporary>
   </component>
