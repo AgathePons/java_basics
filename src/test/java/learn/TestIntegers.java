@@ -37,4 +37,20 @@ public class TestIntegers {
         );
         assertEquals("integer overflow", exception.getMessage());
     }
+
+    @Test
+    void testUnsignedInts() {
+        int x = Integer.parseUnsignedInt("3000000000");
+        // we pass a string containing a number bigger than an int, and we can use
+        // Integer.parseUnsignedInt with the number in string
+        System.out.println("unsigned integer: " + Integer.toUnsignedString(x));
+    }
+
+    @Test
+    void testLongs() {
+        long x = 3000000000L; // we have to add a 'l' / 'L' to specify it is a long
+        System.out.println(x);
+        x *= 2;
+        System.out.println(x);
+    }
 }
