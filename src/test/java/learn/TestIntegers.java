@@ -53,4 +53,15 @@ public class TestIntegers {
         x *= 2;
         System.out.println(x);
     }
+
+    @Test
+    void testComputeOperators() {
+        int x = 7;
+        int y = (x + 3) * 10 / 9 - 1;
+        int r = ((x + 3) * 10) % 9;
+        System.out.println("y: " + y);
+        System.out.println("r: " + r);
+        assertEquals(10, y, "y value"); // third argument is a message
+        assertEquals(1, r, "r value");
+    }
 }
