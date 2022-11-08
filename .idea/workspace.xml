@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51db5974-0501-47c3-a029-ef31812a8ee4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learn/TestFloatingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TestFloatingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learn/TestIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TestIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learn/TestVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TestStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +51,7 @@
       <recent name="learn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestIntegers.divideByZero">
-    <configuration name="TestFloatingNumbers.testComputeOperators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestFloatingNumbers" />
-      <option name="METHOD_NAME" value="testComputeOperators" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestStrings.testOperatorEquals">
     <configuration name="TestFloatingNumbers.testInfinity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basics" />
       <extension name="coverage">
@@ -80,22 +63,6 @@
       <option name="PACKAGE_NAME" value="learn" />
       <option name="MAIN_CLASS_NAME" value="learn.TestFloatingNumbers" />
       <option name="METHOD_NAME" value="testInfinity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFloatingNumbers.testStrawberriesTagada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestFloatingNumbers" />
-      <option name="METHOD_NAME" value="testStrawberriesTagada" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,13 +100,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStrings.testMethodEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestStrings" />
+      <option name="METHOD_NAME" value="testMethodEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStrings.testOperatorEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestStrings" />
+      <option name="METHOD_NAME" value="testOperatorEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStrings.testOperatorEquals" />
+        <item itemvalue="JUnit.TestStrings.testMethodEquals" />
         <item itemvalue="JUnit.TestIntegers.divideByZero" />
         <item itemvalue="JUnit.TestFloatingNumbers.testInfinity" />
         <item itemvalue="JUnit.TestFloatingNumbers.testStrawberriesTagadaFloat" />
-        <item itemvalue="JUnit.TestFloatingNumbers.testStrawberriesTagada" />
-        <item itemvalue="JUnit.TestFloatingNumbers.testComputeOperators" />
       </list>
     </recent_temporary>
   </component>

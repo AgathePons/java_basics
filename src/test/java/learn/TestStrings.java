@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TestVariables {
+public class TestStrings {
     @Test
     void testStringUninitializedVariable() {
         String city; // non initialized
@@ -35,5 +35,29 @@ public class TestVariables {
         String city = "Toulouse";
         assertThrows(IndexOutOfBoundsException.class,
                 () -> city.substring(9));
+    }
+
+    @Test
+    void testOperatorEquals() {
+        // test ==
+        String city1 = "Toulouse";
+        String city2 = "Tou" + "louse";
+        boolean eq = city1 == city2;
+        System.out.println(eq);
+        // here we have a false friend:
+        // 2 strings are stored as one string in memory
+        String city3 = "Toulouse".toLowerCase();
+        String city4 = "TOULOusE".toLowerCase();
+        boolean eq2 = city3 == city4;
+        System.out.println(eq2);
+        // 2 identical strings are stored at different @ in memory
+    }
+
+    @Test
+    void testMethodEquals() {
+        String city3 = "Toulouse".toLowerCase();
+        String city4 = "TOULOusE".toLowerCase();
+        boolean eq = city3.equals(city4);
+        System.out.println(eq);
     }
 }
