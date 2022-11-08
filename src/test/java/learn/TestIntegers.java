@@ -64,4 +64,13 @@ public class TestIntegers {
         assertEquals(10, y, "y value"); // third argument is a message
         assertEquals(1, r, "r value");
     }
+
+    @Test
+    void divideByZero() {
+        ArithmeticException exception = assertThrows(
+                ArithmeticException.class,
+                () -> { int x = 1 / 0; }
+        );
+        assertEquals("/ by zero", exception.getMessage());
+    }
 }

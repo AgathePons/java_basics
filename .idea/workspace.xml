@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51db5974-0501-47c3-a029-ef31812a8ee4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learn/TestFloatingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TestFloatingNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/learn/TestIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TestIntegers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,21 +52,8 @@
       <recent name="learn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestIntegers.testComputeOpertaors">
-    <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.Basics" />
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIntegers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestIntegers.divideByZero">
+    <configuration name="TestFloatingNumbers.testComputeOperators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -74,29 +62,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestIntegers" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIntegers.testComputeOpertaors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestIntegers" />
-      <option name="METHOD_NAME" value="testComputeOpertaors" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestFloatingNumbers" />
+      <option name="METHOD_NAME" value="testComputeOperators" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIntegers.testLongs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFloatingNumbers.testInfinity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +78,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="learn" />
-      <option name="MAIN_CLASS_NAME" value="learn.TestIntegers" />
-      <option name="METHOD_NAME" value="testLongs" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestFloatingNumbers" />
+      <option name="METHOD_NAME" value="testInfinity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIntegers.testUnsignedInts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFloatingNumbers.testStrawberriesTagada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestFloatingNumbers" />
+      <option name="METHOD_NAME" value="testStrawberriesTagada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFloatingNumbers.testStrawberriesTagadaFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn" />
+      <option name="MAIN_CLASS_NAME" value="learn.TestFloatingNumbers" />
+      <option name="METHOD_NAME" value="testStrawberriesTagadaFloat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIntegers.divideByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +127,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="learn" />
       <option name="MAIN_CLASS_NAME" value="learn.TestIntegers" />
-      <option name="METHOD_NAME" value="testUnsignedInts" />
+      <option name="METHOD_NAME" value="divideByZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestIntegers.testComputeOpertaors" />
-        <item itemvalue="JUnit.TestIntegers.testLongs" />
-        <item itemvalue="JUnit.TestIntegers.testUnsignedInts" />
-        <item itemvalue="JUnit.TestIntegers" />
-        <item itemvalue="Application.Basics" />
+        <item itemvalue="JUnit.TestIntegers.divideByZero" />
+        <item itemvalue="JUnit.TestFloatingNumbers.testInfinity" />
+        <item itemvalue="JUnit.TestFloatingNumbers.testStrawberriesTagadaFloat" />
+        <item itemvalue="JUnit.TestFloatingNumbers.testStrawberriesTagada" />
+        <item itemvalue="JUnit.TestFloatingNumbers.testComputeOperators" />
       </list>
     </recent_temporary>
   </component>
